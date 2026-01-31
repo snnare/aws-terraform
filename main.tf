@@ -3,10 +3,10 @@ provider "aws" {
 }
 
 resource "aws_instance" "example" {
-  ami = "ami-03ea746da1a2e36e7"
+  ami = "ami-06e3c045d79fd65d9"
   instance_type = "t3.micro"
 
   tags = {
-    Name = "my-first-ec2"
+    Name = "ec2-tf"
   }
 }
